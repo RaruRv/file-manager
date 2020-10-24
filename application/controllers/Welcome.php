@@ -53,7 +53,6 @@ class Welcome extends CI_Controller {
 		}
 		$data['fileList'] = $currentFiles;
 		$data['historyFileList'] = $deletedFiles;
-		$data['page_heading'] = 'Query Management';
 		$data['content'] = 'Sample';
 		$data['selectedDirectoryPath'] = $directoryPath;
 		$this->load->view('template/index',$data);
